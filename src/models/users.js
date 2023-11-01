@@ -20,7 +20,7 @@ const Users = sequelize.define("users", {
     allowNull: false,
   },
   birthday: {
-    type: DataTypes.DATE,
+    type: DataTypes.STRING,
   }
 });
 
